@@ -1,0 +1,43 @@
+{
+  "name": "node-sletatru",
+  "description": "Tiny RESTful interface for sleat.ru tour search.",
+  "version": "0.1.0",
+  "homepage": "",
+  "author": {
+    "name": "Anton Parkhomenko",
+    "email": "mailbox@chuwy.ru"
+  },
+  "repository": {
+    "type": "git",
+    "url": "node-sletatru"
+  },
+  "bugs": {
+    "url": ""
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "/blob/master/LICENSE-MIT"
+    }
+  ],
+  "main": "lib/search",
+  "engines": {
+    "node": ">= 0.8.0"
+  },
+  "scripts": {
+    "test": "grunt nodeunit"
+  },
+  "devDependencies": {
+    "grunt-contrib-jshint": "~0.6.4",
+    "grunt-contrib-nodeunit": "~0.2.0",
+    "grunt-contrib-watch": "~0.5.3",
+    "grunt": "~0.4.1",
+    "grunt-node-inspector": "~0.1.2",
+    "grunt-debug-task": "~0.1.3"
+  },
+  "keywords": [],
+  "dependencies": {
+    "soap": "git+https://github.com/devotis/node-soap.git",
+    "restify": "~2.6.1"
+  }
+}
