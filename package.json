@@ -38,6 +38,8 @@
   "keywords": [],
   "dependencies": {
     "soap": "git+https://github.com/devotis/node-soap.git",
-    "restify": "~2.6.1"
+    "restify": "~2.6.1",
+    "redis": "~0.10.0",
+    "hiredis": "~0.1.16"
   }
 }
