@@ -1,5 +1,7 @@
 #!/usr/bin/env node
 
+// vim: set ft=javascript:
+
 /*
  * sletatru-search: daemon executable
  *
