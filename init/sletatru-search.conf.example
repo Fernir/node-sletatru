@@ -1,0 +1,9 @@
+# /etc/init/sletatru-search.conf
+
+start on started network
+stop on stopping network
+
+respawn
+expect daemon
+
+exec sletatru-search

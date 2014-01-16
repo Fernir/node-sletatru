@@ -1,5 +1,5 @@
 node_modules
-credentials.json
+settings.json
 .idea
 logs
 build
